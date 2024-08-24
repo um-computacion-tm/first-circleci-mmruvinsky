@@ -1,7 +1,5 @@
 import unittest
-
-from main import suma
-
+from main import suma  # Importa la función suma desde el archivo main.py
 
 class TestSuma(unittest.TestCase):
     def test_suma(self):
